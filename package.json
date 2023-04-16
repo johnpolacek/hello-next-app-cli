@@ -1,6 +1,6 @@
 {
   "name": "hello-next-app-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to bootstrap Hello Next App",
   "main": "index.js",
   "bin": {
@@ -9,9 +9,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/johnpolacek/hello-next-app-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnpolacek/hello-next-app-cli.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "John Polacek",
+    "url": "https://johnpolacek.com/"
+  },
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.2.0",
     "commander": "^10.0.1",
